@@ -1,0 +1,56 @@
+body{
+    background-image: linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255,0.2)),url(https://th.bing.com/th?id=OIP.jd7HAZKVv-4M7N2GLQqpOQHaFO&w=297&h=210&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login{
+    background-color:#1D1565;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+  
+}
+.login h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: aliceblue;
+}
+.login input{
+    width:90%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #020412;
+    border-radius: 50px;
+    cursor:pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login button{
+    width: 70%;
+    padding: 10px;
+    color: blue;
+    border-radius:10px;
+    cursor:pointer;
+   margin-left: 17%;
+}
+ .login button :hover{
+    background-color:blanchedalmond;
+ }
+ .error{
+    color:aliceblue;
+    font-size: medium;
+ }
+ .error a{
+    color:wheat;
+ }
+ .error a:hover{
+    color: blue;
+ }
